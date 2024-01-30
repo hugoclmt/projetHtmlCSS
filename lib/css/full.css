@@ -73,7 +73,6 @@ main aside{
 main aside fieldset{
     border: 1px solid black;
     padding: 10px 10px;
-    
 }
 
 main aside li{
@@ -84,4 +83,37 @@ main aside li{
 main aside img{
     width: 200px;
     height: 180px;
+}
+
+footer{
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: gray;
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer div ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer div ul li{
+    list-style-type: none;
+    padding : 10px;
+}
+
+footer div ul li a svg{
+    width: 30px;
+    height: 30px;
 }
